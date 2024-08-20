@@ -1,0 +1,66 @@
+body{
+    background-color: #fff4f4;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 150px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.navbar{
+    background-color:  #103741;
+    padding: 30px;
+}
+.navbar-nav{
+    padding-left: 300px;
+} 
+.nav-link{
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+    color: #fff !important;
+    margin-left: 30px;
+    transition: 0.2s;
+    border-radius: 20px;
+}
+.nav-link:hover{
+    transform: translate(-20px);
+    background: #fc5c34;
+
+}
+.card{
+    transition: transform 0.3s ease-in-out;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0 0 10px #fc5c34;
+    margin-bottom: 20px;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+
+}
+.jumbotron{
+    background-color: #fff;
+}
+.jumbotron p{
+    font-size: large;
+    font-family: 'Lobster Two', cursive;;
+}
+h1{
+    color: #fc5c34;
+    font-weight: bolder;
+    font-family: 'Lobster Two', cursive;
+}
+h5{
+    font-size: large;
+    font-weight: 700;
+    color:#fc5c34;
+
+}
+button{
+    background-color:  #103741 !important;
+    border: none;
+    font-weight: bold;
+    font-family: cursive;
+}
